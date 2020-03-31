@@ -24,11 +24,10 @@ class Song
     song.artist = artist
     artist.add_song(song)
     song
-    #binding.pry 
   end
   
   def artist_name=(name)
-    
+    binding.pry
   end
   
 
